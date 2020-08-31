@@ -1,0 +1,20 @@
+{
+  "IPythonKernel": {
+    "help_links": [
+      {"text": "Python", "url": "http://docs.python.org/3.8"},
+      {"text": "IPython", "url": "http://ipython.org/documentation.html"},
+      {"text": "NumPy", "url": "http://docs.scipy.org/doc/numpy/reference/"},
+      {"text": "SciPy", "url": "http://docs.scipy.org/doc/scipy/reference/"},
+      {"text": "Matplotlib", "url": "http://matplotlib.org/contents.html"},
+      {"text": "SymPy", "url": "http://docs.sympy.org/latest/index.html"},
+      {"text": "pandas","url": "http://pandas.pydata.org/pandas-docs/stable/"},
+      {"text": "pyspark", "url": "http://spark.apache.org/docs/latest/api/python/index.html"},
+      {"text": "koalas", "url": "https://koalas.readthedocs.io/en/latest/"}
+    ]
+  },
+  "IPKernelApp": {
+      "exec_lines": [
+
+      ]
+  }
+}
