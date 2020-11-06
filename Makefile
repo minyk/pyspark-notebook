@@ -1,4 +1,4 @@
-REPO:="minyk"
+REPO:="docker.pkg.github.com/minyk/pyspark-notebook"
 IMAGE:="pyspark-notebook"
 TAG:="latest"
 
