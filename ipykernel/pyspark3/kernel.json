@@ -1,0 +1,21 @@
+{
+ "argv": [
+  "/opt/conda/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}",
+  "--config",
+  "/opt/conda/share/jupyter/kernels/pyspark3/ipython_kernel_config.py"
+ ],
+ "display_name": "pyspark3",
+ "language": "python",
+ "env": {
+  "SPARK_HOME": "/usr/local/spark",
+  "PYTHONPATH": "/usr/local/spark/python/:/usr/local/spark/python/lib/py4j-0.10.9-src.zip",
+  "PYTHONSTARTUP": "/usr/local/spark/python/pyspark/shell.py",
+  "PYSPARK_PYTHON": "/opt/conda/bin/python3",
+  "PYSPARK_DRIVER_PYTHON": "/opt/conda/bin/ipython3",
+  "PYSPARK_SUBMIT_ARGS": "pyspark-shell"
+ }
+}
